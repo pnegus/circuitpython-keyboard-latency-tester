@@ -3,7 +3,7 @@ code for using circuitpython esp32 to test mech keyboard latency
 
 ## Overview
 
-`code.py` programs your esp32 to-- on the press of the debug button-- send an 'f' keypress followed by setting the 'g' switch contact high. It does this 20 times.
+`code.py` programs your esp32 to send the f key over USB followed by a high digital signal on D11. I used a 2N2222 NPN transistor with a 1kohm pull down resistor and a 1kohm resistor connected to the gate. The source/sink are hooked up to the switch pins on the keyboard. Press the debug button to start the routine, it'll run 20 iterations.
 
 ## Usage
 
