@@ -12,3 +12,9 @@ code for using circuitpython esp32 to test mech keyboard latency
 - Run KeyResponsePK in bump mode (download from Bloody website-- though it doesn't seem to be hosted there anymore? [mirror](https://drive.google.com/file/d/1kiUobSebUWdqPSi0QxpxsH_TUng1uGVF/view?usp=sharing))
 
 - Press debug button
+
+## Results (latency avg):
+
+Keychron V1: 1.8ms
+
+Blackwidow V4 75%: 0.8ms
